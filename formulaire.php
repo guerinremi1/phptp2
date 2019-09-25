@@ -5,7 +5,7 @@ include 'untils.inc.php';
  start_page('formulaire');
 ?>
 
-<form>
+<form action="data-processing.php" method="post">
 <input type = "text" name = "Id" placeholder="Identifiant">
 <input type = "radio" id="male" name="sexe" value="Homme" >
 <label for="male">Homme</label>
@@ -21,5 +21,5 @@ include 'untils.inc.php';
     <option value="espagne">Espagne</option>
 </select>
 <input type="checkbox" id="cgu" name="cgu" placeholder="Accepter les CGU">
-<input name="action" type="submit">
+<input name="action" type="submit" value="mailer">
 </form>
