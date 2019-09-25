@@ -1,5 +1,5 @@
 <?php
-include 'formulaire.php'
+include 'formulaire.php';
 $action = $_POST['action'];
 if($action == 'mailer')
 {
