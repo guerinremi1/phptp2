@@ -1,5 +1,9 @@
 <?php
 include 'formulaire.php';
+include 'untils.inc.php';
+
+start_page('data-processing');
+
 $action = $_POST['action'];
 if($action == 'mailer')
 {
