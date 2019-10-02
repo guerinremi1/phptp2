@@ -23,3 +23,7 @@ else {
     echo '<br/><strong>Bouton non géré !</strong><br/>';
 }
 ?>
+<?php
+$query = 'INSERT INTO user (date, email ...) VALUES (\'' . $today . '\', \''
+. $email . '\', ' . ... . ')';
+?>
